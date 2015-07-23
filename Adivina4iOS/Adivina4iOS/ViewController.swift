@@ -23,5 +23,8 @@ class ViewController: UIViewController {
         }
         digitos++
     }
+    @IBAction func enter() {
+        digitos = 0
+    }
 }
 

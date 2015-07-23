@@ -126,11 +126,11 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCX-cw-EPU">
                                 <rect key="frame" x="160" y="284" width="64" height="64"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                <state key="normal" title="enter">
+                                <state key="normal" title="⏎">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jNn-ih-swa"/>
+                                    <action selector="enter" destination="BYZ-38-t0r" eventType="touchUpInside" id="JWz-4Q-gRM"/>
                                 </connections>
                             </button>
                         </subviews>
