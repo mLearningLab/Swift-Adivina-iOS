@@ -77,11 +77,8 @@
 		68DD10211B61A9CA00E92DD7 /* Adivina4iOS */ = {
 			isa = PBXGroup;
 			children = (
-				68DD10241B61A9CA00E92DD7 /* AppDelegate.swift */,
 				68DD10261B61A9CA00E92DD7 /* ViewController.swift */,
 				68DD10281B61A9CA00E92DD7 /* Main.storyboard */,
-				68DD102B1B61A9CA00E92DD7 /* Images.xcassets */,
-				68DD102D1B61A9CA00E92DD7 /* LaunchScreen.xib */,
 				68DD10221B61A9CA00E92DD7 /* Supporting Files */,
 			);
 			path = Adivina4iOS;
@@ -90,6 +87,9 @@
 		68DD10221B61A9CA00E92DD7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				68DD10241B61A9CA00E92DD7 /* AppDelegate.swift */,
+				68DD102B1B61A9CA00E92DD7 /* Images.xcassets */,
+				68DD102D1B61A9CA00E92DD7 /* LaunchScreen.xib */,
 				68DD10231B61A9CA00E92DD7 /* Info.plist */,
 			);
 			name = "Supporting Files";
