@@ -11,6 +11,13 @@ import UIKit
 class ViewController: UIViewController {
 
     var digitos = 0
+    var  minimo = 1
+    var  maximo = 1000
+    let  oculto = Int(arc4random_uniform(1000)) + 1
+    
+    var num: Int { // computed property
+        return display.text!.toInt() ?? 0
+    }
     
     @IBOutlet weak var display: UILabel!
     
@@ -23,7 +30,17 @@ class ViewController: UIViewController {
         }
         digitos++
     }
-    @IBAction func enter() {
+
+    @IBAction func enter() { // enter key: process number
+        switch num {
+        case let n where n < oculto:
+            minimo = n
+        case let n where n > oculto:
+            maximo = n
+        default: // win (num==oculto) or error (num=0)
+            break
+        }
+        display.text = num==oculto ? "Ganaste!" : "Entre \(minimo) y \(maximo)"
         digitos = 0
     }
 }
